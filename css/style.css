@@ -1,0 +1,150 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+  
+
+ 
+
+.wrapper{
+   background-image: url(../img/bg.png);
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+
+.basic{
+	width: 1000px;
+	height: 1000%;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	
+}
+
+header{
+	
+	width: 1000px;
+	margin: 0 auto;
+	
+	
+	}
+
+.header-up{
+	width: 1000px;
+	height: 170px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.logo img{
+	float: left;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.info ul{
+	float: right;
+	color: #128aa7;
+	font-family: tahoma;
+	font-size: 15px;
+	
+	margin-right: 50px;
+}
+
+.info li{
+	margin-top: 5px;
+}
+
+.cycleMenu {
+	float: right;
+	margin-top: 100px;
+	margin-right: -100px;
+}
+.cycleMenu li{
+	float: left;
+	margin-right: 15px;
+}
+
+ .cycleMenu figcaption{
+ 	color: #128aa7;
+	font-family: tahoma;
+	font-size: 10px;
+	text-align: center;
+ }
+
+ .cycleMenu a{
+ 	color: #128aa7;
+	font-family: tahoma;
+	font-size: 10px;
+	text-align: center;
+ }
+
+ .horisontMenu {
+  background-color: #333333;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	
+  
+ }
+
+ .horisontMenu ul{
+ 	display: flex;
+ 	justify-content:space-around;
+ 	padding-bottom: 5px;
+ 	padding-top: 5px;
+ 	margin-left: 15px;
+ }
+ .horisontMenu li{
+ 	float: left;
+ 	color: white;
+ 	font-family: tahoma;
+	font-size: 15px;
+	margin-right: 70px;
+	
+ }
+
+.horisontMenu a{
+ 	color: white;
+ 	font-family: tahoma;
+	font-size: 15px;
+	text-decoration: none;
+
+	
+ }
+
+
+.fon{
+	display: flex;
+	justify-content:center;
+}
+
+.leftColumn{
+	width: 25%;
+	background-color: #edeef0;
+	border: 1px solid grey;
+
+}
+
+.centerColumn{
+	width: 50%;
+	background-color: white;
+}
+
+.rightColumn{
+	width: 25%;
+	background-color: #edeef0;
+	border: 1px solid grey;
+}
+
+
+footer p{
+	padding: 20px;
+	color: white;
+	font-family: tahoma;
+	text-align: center;
+}
